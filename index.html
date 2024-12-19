@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        *{margin: 0px;}
+        body{
+            box-sizing:content-box;
+        }
+        .header1{
+            background-color: red;
+            height: 40px;
+            width: 100%;
+        }
+        .header3{
+            position: relative;
+            background-color: #474646;
+            height: 40px;
+            width: 100%;
+        }
+        .header2{
+            position: relative;
+            background-color: #000000;
+            height: 110px;
+            width: auto;
+        }
+        .img1{
+            margin-left: 45%;
+            margin-top: -0px;
+        }
+        .img2{
+            margin-left: 41%;
+            height: 20px;
+            width: 200px;
+            margin-top: -8px;
+        }
+        .img3{
+            float: left;
+            position: absolute;
+            height: 70px;
+            margin-top: 8px;
+        }
+        .img5{
+            margin-top: -3px;
+            margin-left: 15px;
+        }
+        .img6{
+            position: absolute;
+            left: 80%;
+            top: 5px;
+        }
+        .k-btn{
+            position: absolute;
+            height: 20px;
+            top: 84px;
+            width: 80px;
+            margin-left: 10px;
+            padding: 0px;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 7px;
+            cursor: pointer;
+            border: 0px solid transparent;
+            color: white;
+            background-color: rgb(8, 126, 204);
+        }
+        .k-btn:hover{
+            box-shadow: 0px 0px 11px 2px rgb(8, 126, 204);
+        }
+        .background{
+            position: relative;
+            height: 500px;
+            width: 100%
+
+        }
+        .block{
+            left: 100px;
+            top: 250px;
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: calibri;
+            margin-top: -100px;
+            color: white;
+        }
+        ul li{
+            position: relative;
+            line-height: 40px;
+            float: left;
+            color: #B4121B;
+            font-size: 20px;
+            font-family: calibri;
+            font-weight: bold;
+            list-style-type: none;
+            margin-inline: 4%;
+        }
+        ul li ul{
+            position: absolute;
+            top:42px;
+            display: block;
+            z-index: 2;
+            display: none;
+
+        }
+        ul li:hover ul{
+            display: block;
+        }
+        ul li:hover ul li{
+            display: block;
+            margin-bottom: 2px;
+            border-radius: 10px;
+            width: 160px;
+            left: -80px;
+            line-height: 30px;
+            font-size: 15px;
+            height:30px;
+            text-align: center;
+            background-color: #474646;
+        }
+        ul li ul li:hover{
+            background-color: black;
+            color: white;
+            font-weight: 400;
+        }
+        ul li:hover{
+            color: white;
+        }
+        ul li ul li a{
+            color: #B4121B;
+        }
+        .quote{
+            position: absolute;
+            top: 100px;
+            width: 500px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        .about{
+            position: absolute;
+            left: 88%;
+            top: 10px;
+            background-color: red;
+            border: none;
+            height: 20px;
+            width: 80px;
+            color: white;
+            cursor: pointer;
+        }
+        .about:hover{
+            font-weight: bold;
+        }
+        .join{
+            background-color: #B4121B;
+            border: none;
+            height: 40px;
+            width: 100px;
+            color: white;
+            cursor: pointer;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .join:hover{
+            color: white;
+            font-weight: bold;
+            box-shadow: 1px 1px 11px 1px red;
+        }
+        .get-touch{
+            position: absolute;
+            top: 30px;
+            background-color: #B4121B;
+            border: none;
+            height: 40px;
+            width: 110px;
+            left: 87%;
+            color: white;
+            cursor: pointer;
+        }
+        .get-touch:hover{
+            box-shadow: 0px 0px 13px 0px red
+        }
+        .follow{
+            position: absolute;
+            color: white;
+            left: 12%;
+            top: 11px;
+            z-index: 2;
+            font-size: 15px;
+        }
+        .telegram{
+            position: absolute;
+            color: white;
+            left: 73%;
+            top: 11px;
+            z-index: 2;
+            font-size: 15px;
+        }
+
+  
+
+     
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <img src="hat-4.jpg" class="img5" alt="" height="50" width="70">
+        <p class="follow">FOLLOW US</p>
+        <p class="telegram"><a href="https://t.me/+5vr7y9seySk0YTQ1">TELEGRAM</a></p>
+        <a href="https://t.me/+5vr7y9seySk0YTQ1"><img src="tel.jpeg" class="img6" alt="" height="25" width="40"></a>
+        <button class="about">About Us</button>
+
+    </div>
+    <div class="header2">
+        <img src="sl1.png" class="img3" alt="" height="100" width="100">
+        <button id="know-btn" class="k-btn"><a href="know_more.html">KNOW MORE</a> </button>
+        <img src="logo1.jpg" class="img1" alt="" height="90" width="100">
+        <img src="lg-1.jpg" class="img2" alt="" height="100" width="100">
+        <button class="get-touch"><a href="https://t.me/+5vr7y9seySk0YTQ1">GET IN TOUCH</a> </button>
+    </div>
+    </div>
+    <div class="header3">
+        <ul>
+            <li>HOME</li>
+            <li class="service">SERVICE 
+                <ul class="service-menu">
+                    <li>RESUME</li>
+                    <li>PORTFOLIO</li>
+                    <li>SUBJECT NOTES</li>
+                    <li>PRACTICE QUESTIONS</li>
+                </ul>
+            </li>
+            <li class="companys">COMPANYS
+                <ul class="company-menu">
+                    <li> <a href="https://www.infosys.com/careers/">INFOSYS</a>  </li>
+                    <li> <a href="https://www.google.com/about/careers/applications/">GOOGLE</a></li>
+                    <li> <a href="https://www.linkedin.com/learning/">LINKEDIN-MICROSOFT</a></li>
+                    <li> <a href="https://www.udemy.com/topic/python/?utm_source=adwords&utm_medium=
+                        udemyads&utm_campaign=Brand-Topic_la.EN_cc.India&campaigntype=Search&portfolio=
+                        BrandTopic&language=EN&product=Course&test=&audience=Keyword&topic=&priority=
+                        &utm_content=deal4584&utm_term=_._ag_139989572110_._ad_595460368965_._
+                        kw_udemy%20python_._de_c_._dm__._pl__._ti_kwd-317120314556_._li_9183442_._pd__._
+                        &matchtype=b&gad_source=1&gclid=CjwKCAiAgoq7BhBxEiwAVcW0LJyj1hCL5vo7-e07neNNqSmnOE1UWn6XB
+                        _2bpz5pg9ZSQgionQP-JBoCgs8QAvD_BwE">UDEMY</a>
+                        </li>
+                    <li><a href="https://www.hp.com/in-en/home.html">HP</a></li>
+                    <li><a href="https://www.coursera.org/courseraplus?utm_medium=sem&utm_source=gg&utm_campaign=
+                        b2c_india_coursera-plus_coursera_ftcof_subscription_arte_may-24_dr_exact_sem_rsa_gads_lg-
+                        all&campaignid=21327429274&adgroupid=162815312357&device=c&keyword=coursera&matchtype=e&network=
+                        g&devicemodel=&adposition=&creativeid=700607287634&hide_mobile_promo&gad_source=1&gclid=
+                        EAIaIQobChMI8b6brKqzigMVqRaDAx3GNBCMEAAYASAAEgLZavD_BwE">COURESERA</a></li>
+                </ul>
+            </li>
+            <li>CONNECT US
+                <ul>
+                    <li>FACE BOOK</li>
+                    <li>INSTAGRAM</li>
+                    <li>TWITTER</li>
+                    <li>TELEGRAM</li>
+                </ul>
+            </li>
+            <li>CONTACT
+                <ul>
+                    <li>magnet77@gmail.com</li>
+                    <li>contact- 9900990099</li>
+                </ul>
+            </li>
+            <li>USERS</li>
+            <li>ADMINS</li>
+        </ul>
+    </div>
+    <div class="background">
+        <img src="bg11.jpg" class="img4" alt="" height="600px" width="100%">
+        <div class="block">
+ <p class="text">SELECT YOUR CAREER ON <br> FUTURE TECHNOLOGYES</p><br>
+ <p class="quote">Intelligence is the Ability to Adapt<br> to Change</p>
+ <button class="join" onclick="index.html" > <a href="index.html">JOIN NOW</a> </button>
+        </div>
+
+    </div>
+</body>
+</html>
